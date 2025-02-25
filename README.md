@@ -190,3 +190,9 @@ Tesla, Porsche, and Land Rover models show positive coefficients, indicating a h
 
 ### **These insights can guide marketing strategies, pricing models, and inventory selections tailored to optimize for the factors most significantly impacting market value in each vehicle category.**
 
+
+## Installation
+To run this notebook:
+1. Ensure you have Jupyter Notebook installed.
+2. Install required Python packages:
+**3. Makesure you unzip the data file.**
