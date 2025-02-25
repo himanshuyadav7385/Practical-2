@@ -42,4 +42,7 @@ To frame the task, throughout our practical applications we will refer back to a
 
 ### **After studying the data it was concluded that it would be best to create a model per vehicle type as prices significantly vary based on type of vehicle and they cannot be judged on same scale.**
 
+ ### Data Preparation
+ Next step is to prepare the data for modelling. Following actions were taken during data preparation steps.  
+ 
  
