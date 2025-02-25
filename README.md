@@ -89,5 +89,23 @@ Performance of both are very close with slight edge to **Ridge.**
 
 ### Evaluation
 
+#### **Evaluating Alpha and RMSE**
+
+**General Observations**
+- **Optimal Alpha Variability:**
+  - For most vehicle types, an alpha of 1 seems to provide the best balance between bias and variance, minimizing the RMSE.
+  - Vehicle types like 'convertible', 'offroad', 'pickup', 'truck', and 'wagon' benefit from other alpha values, indicating different levels of  sensitivity to model complexity and regularization strength. For example:
+    - **Lower Alphas (0.1):** Better for 'convertible' and 'wagon', suggesting minimal regularization beyond the basic is needed.
+    - **Higher Alphas (10):** Better for 'offroad', 'pickup', and 'truck', suggesting these types might have data that are more prone to overfitting or have more complex underlying patterns that require stronger regularization.
+- **Performance Metrics (RMSE):**
+  - The RMSE values vary significantly across vehicle types, reflecting the diversity in data distribution, volume, and inherent noise within each category.
+  - Lower RMSE values in 'hatchback' and 'mini-van' suggest models for these types are particularly effective at capturing the necessary predictors of price with less error.
+  - Higher RMSE values for 'convertible' and 'coupe' could indicate more variability in prices or less predictability based on available features.
+- **Specific Insights**
+  - Best Performing Models: Models for 'hatchback' and 'mini-van' have notably low RMSEs, suggesting the features selected and the model structure are well-suited for predicting prices in these categories.
+  - Challenges in High RMSE Categories: For categories like 'convertible' and 'coupe' where RMSE is relatively high, it might be useful to investigate further:
+    - Could additional features improve the model?
+    - Are there outliers or extreme values skewing the results?
+    - Is there a need for more advanced modeling techniques or non-linear models?
 
 
