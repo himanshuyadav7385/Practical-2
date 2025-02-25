@@ -70,7 +70,7 @@ Standard Scaling (Z-score scaling): This scales the features based on the standa
 
 **Correlation analysis**
 
-[Correlation Analysis](images/Correlation_Analysis.png)
+![Correlation Analysis](images/Correlation_Analysis.png)
 
 
 
