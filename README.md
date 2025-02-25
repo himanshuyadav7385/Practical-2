@@ -69,7 +69,8 @@ Scaling Methods:
 Standard Scaling (Z-score scaling): This scales the features based on the standard deviation and mean. It’s effective when data follows a normal distribution.
 
 **Correlation analysis**
-Correlation_Analysis
+
+[Correlation Analysis](images/Correlation_Analysis.png)
 
 
 
