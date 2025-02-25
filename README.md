@@ -56,12 +56,12 @@ To frame the task, throughout our practical applications we will refer back to a
   - To get rid of junk data only rows with **Odometer** value between **0 to 300000**
 - handle missing values.
    - **Unknown** was added to rest of missing values
-- Encoding Categorical Variables
+- Encoding Categorical Variables - 
   Many machine learning models require all input data to be numeric. Encoding categorical variables is essential to convert them into a format that can be provided to machine learning algorithms.
 
 **Method: One-Hot Encoding**
 One-Hot Encoding creates a binary column for each category and is suitable for nominal categorical data where no ordinal relationship exists.
-- Data scaling
+- Data scaling - 
   Data Normalization or Scaling
 Scaling numerical data, especially when the data spans several orders of magnitude, can improve the performance of many algorithms.
 
