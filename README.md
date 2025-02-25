@@ -44,5 +44,9 @@ To frame the task, throughout our practical applications we will refer back to a
 
  ### Data Preparation
  Next step is to prepare the data for modelling. Following actions were taken during data preparation steps.  
- 
+ - Drop unwanted columns
+- handle missing values
+- handle junk data
+- Encoding Categorical Variables
+- Data scaling
  
