@@ -66,5 +66,10 @@ One-Hot Encoding creates a binary column for each category and is suitable for n
 Scaling numerical data, especially when the data spans several orders of magnitude, can improve the performance of many algorithms.
 
 Scaling Methods:
-Standard Scaling (Z-score scaling): This scales the features based on the standard deviation and mean. It’s effective when data follows a normal 
- 
+Standard Scaling (Z-score scaling): This scales the features based on the standard deviation and mean. It’s effective when data follows a normal distribution.
+
+**Correlation analysis**
+Correlation_Analysis
+
+
+
