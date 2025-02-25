@@ -108,4 +108,85 @@ Performance of both are very close with slight edge to **Ridge.**
     - Are there outliers or extreme values skewing the results?
     - Is there a need for more advanced modeling techniques or non-linear models?
 
+## Deployment anmd final findings.
+
+#### Summary of Feature Importance Across Vehicle Types
+
+The analysis of feature importance provides significant insights into factors influencing vehicle pricing and characteristics by category. Here are the key findings for each vehicle type:
+
+#### SUVs
+SUVs: Seems like **Manufacturer** is the biggest influencer in this category.
+Tesla, Porsche, and Land Rover models show positive coefficients, indicating a higher price or desirability, while Fiat and Mitsubishi are negatively associated with SUV pricing.
+- **Positive Influences**: Tesla, Porsche, Land Rover
+- **Negative Influences**: Fiat, Mitsubishi
+
+#### Buses
+- Seeing something strange here. New condition on busses seem to drive the prices lower. 
+- Diesel busses preffered over Electric
+- Honda and Mercedes not preffered in this category.
+- Prices are really low in Hawai and Washington but higher in Arizona.
+- **Positive Influences**: Volkswagen, Diesel fuel
+- **Negative Influences**: Honda, New condition
+
+#### Convertibles
+- Ferrari, Aston Martin, Dodge and big drivers of prices. 
+- Electric fuel is not preffered in this category
+- **Positive Influences**: Ferrari, Aston Martin
+- **Negative Influences**: Fiat, Electric fuel
+
+#### Coupes
+- Ferrari leads this sector.
+- Seems like state of Utah has more demand for such vehicles.
+- **Positive Influence**: Ferrari dominates the feature importance, suggesting a premium pricing effect.
+- **Negative Influences**: Fiat, Electric fuel
+
+#### Hatchbacks
+- Manufacturer is biggest influencer here.
+- **Positive Influences**: Porsche, Tesla
+- **Negative Influences**: Mitsubishi, Fiat
+
+#### Mini-vans
+- In this category brand name is of less importance.
+- New Condition and Diesel fuel drive prices up. Any condition lower than new significantly bring down the price.
+- Prices in Alaska are high for Mini Vans
+- **Positive Influences**: New condition, Diesel fuel
+- **Negative Influences**: Good condition, Older car age
+
+#### Offroad
+- Older cars are not preffered in this category as indicated by Car_age and odometer negatively influencing the prices.
+- Toyota and Jeep are top brands.
+- Prices are higher in Tennesssee and Colorado
+- four wheel drives are must
+- **Positive Influences**: Toyota, Four-wheel drive
+- **Negative Influences**: Age, Odometer
+
+#### Other
+- Ferrari and Porsche lead the market.
+- **Positive Influences**: Ferrari, Tesla
+- **Negative Influences**: Harley-Davidson, Fiat
+
+#### Pickups
+- Diesel is preffered.
+- Price drop significantly for older vehicles.
+- **Positive Influences**: Diesel fuel, Four-wheel drive
+- **Negative Influences**: Salvage title status, Older vehicles
+
+#### Sedans
+- Manufacturer is the biggest factor. Porsche, Aston Martin and Ram are most expensive brands. Fiat, Hyundai, Harley ahve cheapest cars.
+- **Positive Influences**: Porsche, Aston Martin, Ram
+- **Negative Influences**: Hyundai, Kia
+
+#### Trucks
+- **Positive Influence**: Diesel fuel
+- **Negative Influences**: Unknown title status, Mitsubishi
+
+#### Vans
+- **Positive Influences**: New condition, Diesel fuel
+- **Negative Influences**: Salvage title, Jeep
+
+#### Wagons
+- **Positive Influence**: Tesla shows the highest positive influence.
+- **Negative Influences**: Fiat, Missing title status
+
+### **These insights can guide marketing strategies, pricing models, and inventory selections tailored to optimize for the factors most significantly impacting market value in each vehicle category.**
 
