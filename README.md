@@ -192,7 +192,7 @@ Tesla, Porsche, and Land Rover models show positive coefficients, indicating a h
 
 
 ## Installation
-To run this notebook:
+To run this notebook **(Practical_2)**:
 1. Ensure you have Jupyter Notebook installed.
 2. Install required Python packages:
-**3. Makesure you unzip the data file.**
+3. **Makesure you unzip the data file.**
