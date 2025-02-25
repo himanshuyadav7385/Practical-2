@@ -72,5 +72,9 @@ Standard Scaling (Z-score scaling): This scales the features based on the standa
 
 ![Correlation Analysis](images/Correlation_Analysis.png)
 
+Here's the correlation matrix for the price, odometer, and car age. The key insights from the matrix are:
+
+- Price and Odometer: There's a negative correlation (-0.42), suggesting that higher mileage (odometer reading) is associated with lower prices, which aligns with expectations.
+- Price and Car Age: The negative correlation (-0.41) indicates that older cars tend to be priced lower, another intuitive finding. These insights suggest that both odometer readings and car age are significant factors in determining used car prices.
 
 
