@@ -44,9 +44,27 @@ To frame the task, throughout our practical applications we will refer back to a
 
  ### Data Preparation
  Next step is to prepare the data for modelling. Following actions were taken during data preparation steps.  
- - Drop unwanted columns
-- handle missing values
+- Drop unwanted columns
+   - Dropped **Size and Cylendar** due to large numhber of missing values
+   - Dropped **VIN** and **ID** as they should not have any impact on prices.
+   - Dropped **Region** and **Model** to reduce number of features.
+   - **Year** was converted to **car_age** and year was dropped
+   - dropped **paint** as too many missing values color should not have too much impact on price. 
 - handle junk data
+  - Only considered vehicles made after 1999 . Vehicles older than 2000 can be considered antique. Such vehicles are priced very differently and should be considered through separate model .
+  - Only considering vehicles with price range between 100 and 500000 to get rid of outliers.
+  - To get rid of junk data only rows with **Odometer** value between **0 to 300000**
+- handle missing values.
+   - **Unknown** was added to rest of missing values
 - Encoding Categorical Variables
+  Many machine learning models require all input data to be numeric. Encoding categorical variables is essential to convert them into a format that can be provided to machine learning algorithms.
+
+**Method: One-Hot Encoding**
+One-Hot Encoding creates a binary column for each category and is suitable for nominal categorical data where no ordinal relationship exists.
 - Data scaling
+  Data Normalization or Scaling
+Scaling numerical data, especially when the data spans several orders of magnitude, can improve the performance of many algorithms.
+
+Scaling Methods:
+Standard Scaling (Z-score scaling): This scales the features based on the standard deviation and mean. It’s effective when data follows a normal 
  
