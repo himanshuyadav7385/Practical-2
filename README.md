@@ -10,6 +10,6 @@ In this assignment we will explore a dataset from kaggle. The original dataset c
 
 ### CRISP-DM Framework
 
-![CRISP](images/crisp.jpeg)
+![CRISP](images/crisp.png)
 To frame the task, throughout our practical applications we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem.
 
