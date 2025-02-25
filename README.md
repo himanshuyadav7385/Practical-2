@@ -77,4 +77,17 @@ Here's the correlation matrix for the price, odometer, and car age. The key insi
 - Price and Odometer: There's a negative correlation (-0.42), suggesting that higher mileage (odometer reading) is associated with lower prices, which aligns with expectations.
 - Price and Car Age: The negative correlation (-0.41) indicates that older cars tend to be priced lower, another intuitive finding. These insights suggest that both odometer readings and car age are significant factors in determining used car prices.
 
+### **Modeling**
+
+**Liner Regression** and **Ridge regression** 
+- split data
+- training
+- comparing performance using **RSME**
+
+Performance of both are very close with slight edge to **Ridge.**
+**Hyperparameter** for Ridge was further tuned.
+
+### Evaluation
+
+
 
