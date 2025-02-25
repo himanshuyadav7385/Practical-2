@@ -40,4 +40,6 @@ To frame the task, throughout our practical applications we will refer back to a
 - paint_color: The color of the car.
 - state: The state in which the car is being sold.
 
-- 
+### **After studying the data it was concluded that it would be best to create a model per vehicle type as prices significantly vary based on type of vehicle and they cannot be judged on same scale.**
+
+ 
